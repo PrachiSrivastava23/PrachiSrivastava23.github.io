@@ -11,7 +11,12 @@
 
 *
 {
-    font-family: fantasy;    
+    font-family: a7x_font;    
+}
+
+.btn-download{
+    color: white;
+    background-color: maroon;
 }
 
 .logo{
