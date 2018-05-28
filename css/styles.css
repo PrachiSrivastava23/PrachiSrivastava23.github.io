@@ -1,0 +1,126 @@
+@font-face {
+    font-family: a7x_font;
+    src: url(adler.ttf);
+}
+
+.name{
+    font-family: a7x_font;
+    color:white;
+
+}
+
+.logo{
+    width: 200px;
+    border-color:white;
+    border: 1px;
+}
+
+.masthead{
+    background: black !important;
+}
+
+@media (max-width: 575px) { 
+    .name{
+        font-size: 40px;
+    }
+    .logo{
+        width: 100px;
+    }
+    nav {
+        font-size: .5em;
+      } 
+
+    ul {
+      display: block;
+    }
+     
+    nav ul li {
+      display: block;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .name{
+        font-size: 60px;
+    }
+    .logo{
+        width: 150px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {    
+     .name{
+    font-size: 40px;
+}
+.logo{
+    width: 150px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .name{
+        font-size: 50px;
+    }
+    .logo{
+        width: 100px;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .name{
+        font-size: 60px;
+    }
+    .logo{
+        width: 150px;
+    }
+ }
+
+ nav ul {
+    margin: 0px;
+    padding : 0px;
+  }
+  
+  nav ul li {
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+.active-nav, .active-nav a{
+    color: maroon;
+    background-color: grey;
+  }
+  
+  nav ul li:first-child {
+    border-left: none;
+  }
+  nav ul li:last-child {
+    border-right: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color:rgb(61, 60, 60);
+    padding: 10px 0;
+    font-family: a7x_font;
+  }
+  
+
+  nav {
+    display: table;
+    table-layout: fixed;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  ul li {
+      flex-grow: 1;
+  }
