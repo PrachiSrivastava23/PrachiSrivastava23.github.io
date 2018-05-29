@@ -177,8 +177,29 @@
       background-color: indianred;
   }
 
-.carousel
+  .carousel, .slide,  .carousel .carousel-inner,  .carousel .carousel-item,  .carousel .carousel-item img,  .carousel .carousel-control {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  
+  .carousel-item{
+    padding: 2px;
+    box-shadow: inset 0 0 20rem maroon;
+}
+
+.card-header
 {
-    border:2px;
-    border-color: maroon;
+    height: 60px;
+    text-align: center;
+    background-color: black!important;
+    color: whitesmoke;
+}
+
+.card {
+    margin: 8px;
+   }
+
+.card-footer a{
+ color: maroon;
 }
