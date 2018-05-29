@@ -154,6 +154,7 @@
   nav {
     display: table;
     table-layout: fixed;
+    background-color: white!important;
   }
   
   ul {
@@ -165,10 +166,19 @@
       flex-grow: 1;
   }
 
-
-
+  body {
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-position: left;
+}
   .row-head
   {
       padding: 20px;
       background-color: indianred;
   }
+
+.carousel
+{
+    border:2px;
+    border-color: maroon;
+}
