@@ -16,7 +16,7 @@
 
 .btn-download{
     color: white;
-    background-color: maroon;
+    background-color: maroon!important;
 }
 
 .logo{
@@ -151,6 +151,15 @@
     text-decoration: none;
     color:black;
   }
+
+ .container-fluid .row .col-12 .card .card-footer a{
+      text-decoration: none;
+  }
+  .container-fluid .row .col-12 .card .card-footer a:hover{
+    color:gray;
+}
+
+
   ul a {
       flex-grow: 1;
   }
