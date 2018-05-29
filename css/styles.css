@@ -154,7 +154,7 @@
       text-decoration: none;
   }
   .container-fluid .row .col-12 .card .card-footer a:hover{
-    color:gray;
+    color: darkslategray;
 }
 
 
