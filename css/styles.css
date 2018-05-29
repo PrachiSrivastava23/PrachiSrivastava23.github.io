@@ -50,7 +50,7 @@
     }
     .tour
     {
-        width:336px;
+        width:250px;
     }
     p{
         font-size: .5em;
@@ -203,3 +203,4 @@
 .card-footer a{
  color: maroon;
 }
+
