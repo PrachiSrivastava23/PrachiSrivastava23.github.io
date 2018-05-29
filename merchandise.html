@@ -72,26 +72,60 @@
             </a>
         </ul>
     </nav>
-
-    <div class="row">
-        <div class="col-12 col-sm-4">
-            <div class="flex">
-                Apparels
+    <hr>
+    <div class="container">
+        <button class="accordion">
+            <h2>Apparels</h2>
+        </button>
+        <div class="panel">
+            <p>
                 <ul>
                     <li>
                         <a href="https://avengedsevenfold.fanfire.com/cgi-bin/WebObjects/Store.woa/wa/artist?sourceCode=AVSWEBWWUSD&categoryName=Apparel&artistName=Avenged+Sevenfold"
                             target=_blank>Official Site</a>
                     </li>
                 </ul>
-            </div>
+            </p>
+            <p>
+                    <ul>
+                        <li>
+                            <a href="https://www.amazon.com/Clothing-Shoes-Jewelry-Avenged-Sevenfold/s?ie=UTF8&field-brandtextbin=Avenged%20Sevenfold&page=1&rh=n%3A7141123011"
+                                target=_blank>Amazon.com</a>
+                        </li>
+                    </ul>
+                </p>
+        </div>
 
+        <button class="accordion"><h2>Vinyls</h2>
+            </button>
+        <div class="panel">
+            <p></p>
+        </div>
+
+        <button class="accordion"><h2>Phone Cases</h2></button>
+        <div class="panel">
+            <p></p>
         </div>
     </div>
-
-
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 </body>
 

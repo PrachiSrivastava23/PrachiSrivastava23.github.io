@@ -126,7 +126,6 @@
   
   nav ul a{
     display: block;
-    text-decoration: none;
     color:rgb(61, 60, 60);
     padding: 10px 0;
     font-family: a7x_font;
@@ -146,13 +145,10 @@
   
 
   nav ul a:hover{
-    text-decoration: none;
     color:black;
   }
 
- .container-fluid .row .col-12 .card .card-footer a{
-      text-decoration: none;
-  }
+
   .container-fluid .row .col-12 .card .card-footer a:hover{
     color: darkslategray;
 }
@@ -200,3 +196,43 @@
  color: maroon;
 }
 
+
+.accordion {
+    background-color: gray;
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.active, .accordion:hover {
+    background-color:maroon;
+}
+.active{
+    margin:0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+ a{
+    text-decoration: none !important;
+}
+
+.panel a{
+    color: darkslategray;
+}
+.panel {
+    padding: 0 18px;
+    background-color: lightgray;
+    display: none;   
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
