@@ -48,10 +48,6 @@
     nav ul li {
       display: block;
     }
-    .tour
-    {
-        width:337px;
-    }
     p{
         font-size: .5em;
     }
@@ -65,10 +61,7 @@
     .logo{
         width: 150px;
     }
-    .tour
-    {
-        width:700px;
-    }
+
 }
 
 
@@ -79,10 +72,7 @@
 .logo{
     width: 150px;
 }
-.tour
-{
-    width:900px;
-}
+
 }
 @media (min-width: 992px) and (max-width: 1199px) { 
     .name{
@@ -91,10 +81,7 @@
     .logo{
         width: 100px;
     }
-    .tour
-    {
-        width:1100px;
-    }
+    
 }
 
 
@@ -105,10 +92,7 @@
     .logo{
         width: 150px;
     }
-    .tour
-    {
-        width:1350px;
-    }
+    
  }
 
 
