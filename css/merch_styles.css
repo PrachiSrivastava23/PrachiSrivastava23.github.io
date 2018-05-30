@@ -143,7 +143,7 @@ border-color: black;
 }
 
 .panel a:hover{
-  color:white;
+  color:white !important;
 }
 
 .panel a{
