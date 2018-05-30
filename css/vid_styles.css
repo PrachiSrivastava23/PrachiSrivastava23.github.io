@@ -1,0 +1,13 @@
+.card-body{
+    padding:0px !important;
+}
+
+.card{
+    margin:30px !important;
+}
+
+.card-header
+{
+    background-color: grey !important;
+    color:maroon !important;
+}
