@@ -1,0 +1,160 @@
+
+
+   .banner-head {
+    width: 800px;
+    margin: 40px auto;
+   }
+    
+   .banner-head h1 {
+    text-align: center;
+    font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+    
+   }
+    
+   .banner-head p {
+    font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+    text-align: justify;
+   }
+    
+    
+   .photobanner {
+    height: 233px;
+    width: 3550px;
+    border: 2px;
+border-color: black;
+    margin-bottom: 80px;
+    overflow: hidden;    
+   }
+
+
+   .first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+   }
+    
+   @keyframes bannermove {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -2125px;
+    }
+    
+   }
+    
+   @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-webkit-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-ms-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-o-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+
+    
+   .photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
+    
+   .photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+   }
+
+
+
+
+ .card-body
+ {
+   padding: 0 !important;
+   
+     overflow:hidden !important;
+     height: 233px !important;
+ }
+
+ .accordion {
+    background-color: gray;
+    color:maroon;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.active, .accordion:hover {
+    background-color:maroon;
+    color:white;
+}
+.active{
+    margin:0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+ a{
+    text-decoration: none !important;
+}
+
+.panel a{
+    color: darkslategray;
+}
+.panel {
+    padding: 0 18px;
+    background-color: lightgray;
+    display: none;   
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

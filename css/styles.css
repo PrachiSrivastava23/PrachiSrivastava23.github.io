@@ -197,42 +197,6 @@
 }
 
 
-.accordion {
-    background-color: gray;
-    color:white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: 1px;
-    outline: none;
-    transition: 0.4s;
-    border-radius: 12px;
-    margin: 10px;
-}
-
-.active, .accordion:hover {
-    background-color:maroon;
-}
-.active{
-    margin:0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
- a{
+a{
     text-decoration: none !important;
-}
-
-.panel a{
-    color: darkslategray;
-}
-.panel {
-    padding: 0 18px;
-    background-color: lightgray;
-    display: none;   
-    overflow: hidden;
-    margin-bottom: 10px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
 }
