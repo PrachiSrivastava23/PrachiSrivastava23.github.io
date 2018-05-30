@@ -142,8 +142,8 @@ border-color: black;
     border-bottom-right-radius: 0;
 }
 
- a{
-    text-decoration: none !important;
+.panel a:hover{
+  color:white;
 }
 
 .panel a{
