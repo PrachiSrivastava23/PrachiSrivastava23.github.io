@@ -161,7 +161,7 @@
                         </div>
                             <img class="card-img-top" src="img/therev.png">
                         <div class="card-footer">
-                            <a href="https://www.youtube.com/watch?v=A7ry4cx6HfY" target="_blank">foREVer</a>
+                            <a href="https://www.youtube.com/watch?v=A7ry4cx6HfY" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Link to 'So Far Away'" target="_blank">foREVer</a>
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();   
+            });
+            </script>
 </body>
 
 </html>
