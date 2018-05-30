@@ -14,8 +14,8 @@
 
 
 .header{
-    background-color: grey;
-    color:maroon;
+    background-color: grey !important;
+    color:maroon!important;
     border-radius: 12px;
     height: 50px;
     padding: 10px;
