@@ -147,14 +147,17 @@ border-color: black;
 }
 
 .panel a{
-    color: darkslategray;
+    color:white;
 }
 .panel {
     padding: 0 18px;
+    background: linear-gradient(90deg,black,rgb(56, 54, 54),black);
     background-color: lightgray;
     display: none;   
     overflow: hidden;
     margin-bottom: 10px;
+    border: 2px solid maroon;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+
 }
