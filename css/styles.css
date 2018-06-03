@@ -160,8 +160,9 @@
 
   body {
     background-image: url("back.jpg");
-    background-attachment: fixed;
+
     background-position: left;
+    background-repeat: repeat;
 }
   .row-head
   {
